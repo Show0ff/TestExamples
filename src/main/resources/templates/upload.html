@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Загрузка резюме</title>
+</head>
+<body>
+<h1>Загрузка резюме</h1>
+<form method="POST" enctype="multipart/form-data" action="/upload">
+  <input type="file" id="inputFile" name="file" accept=".doc,.docx,.pdf" required>
+  <button type="submit" id="submitButton">Submit</button>
+</form>
+<p th:if="${message}" th:text="${message}"></p>
+</body>
+</html>

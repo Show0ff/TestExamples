@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: org.tasks.Second.ConnectionTest
+-------------------------------------------------------------------------------
+Tests run: 22, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.968 s <<< FAILURE! - in org.tasks.Second.ConnectionTest
+org.tasks.Second.ConnectionTest.IPv6Address  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.tasks.Second.ConnectionTest.IPv6Address(ConnectionTest.java:71)
+
+org.tasks.Second.ConnectionTest.TCPConnectionWithTrustedInvalidSSL  Time elapsed: 0.293 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at org.tasks.Second.ConnectionTest.TCPConnectionWithTrustedInvalidSSL(ConnectionTest.java:125)
+
